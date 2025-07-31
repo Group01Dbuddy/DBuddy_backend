@@ -1,5 +1,5 @@
 # Load JSON with food -> calories
-with open("food_data.json", "r") as f:
+with open("food_calories.json", "r") as f:
     food_data = json.load(f)
 
 class_labels = list(food_data.keys())
